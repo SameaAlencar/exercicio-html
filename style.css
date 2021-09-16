@@ -37,61 +37,87 @@
     align-items: center;    
 }
  
-.exer01 .items:nth-child(3){
-    background-color: blue;
-}
+ 
 .exer02 {
-    align-items: flex-start;
-    align-items: flex-end;
     align-items: center;
     justify-content: center;
 }
 
 .exer03{
-    align-items: flex-start;
     align-items: flex-end;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
     
 }
 .exer04 {
-    align-items: flex-start;
-    align-items: flex-end;
     align-items: center;
-    justify-content: center;
     justify-content: space-between;
 }
+
 .exer05 {
-    align-items: flex-start;
-    align-items: flex-end;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
 }
+
 .exer06 {
-    align-items: flex-start;
-    align-items: flex-end;
     align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.exer08{
-    align-items: flex-start;
-    align-items: flex-end;
+
+.exer07 {
     align-items: center;
-    justify-content: center;
+    justify-content:flex-end;
+}
+
+.exer07 div:nth-child(1){
+    margin-right: auto ;
+}
+
+.exer08{
+    align-items: center;
     flex-direction: column;
 }
-.exer010 {
-    align-items: flex-start;
+
+.exer09{
     align-items: flex-end;
+    flex-direction: column;
+
+}
+.exer09 div:nth-child(3){
+    align-items: stretch;
+    background-color: brown;
+
+}
+.exer10 {
     align-items: center;
-      justify-content: center;
-    align-items: stretch/flex-start/flex-end/center/baseline;
+    
     
 }
+.exer11{
+    align-items: center;
+    flex-wrap: wrap;
 
 
+}
+.exer12{
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exer12 div:nth-child(odd){
+    background-color: #ffa899;
+    flex-grow: 1;
+}
+.exer13{
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+.exer13 div:nth-child(odd){
+    background-color: #ffa899;
+    width: 50%;
+    flex-grow: 1;
+
+}
 
 
 
